@@ -1,5 +1,6 @@
 package com.VerMod.CoolMod;
 
+import com.VerMod.CoolMod.Items.ItemRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,6 +38,10 @@ public class CoolMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        //------->>>>>>>>
+        ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        //------->>>>>>>>
     }
 
     private void setup(final FMLCommonSetupEvent event)
