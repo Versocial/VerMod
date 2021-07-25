@@ -1,5 +1,6 @@
 package com.VerMod.CoolMod;
 
+import com.VerMod.CoolMod.Block.BlockRegistry;
 import com.VerMod.CoolMod.Items.ItemRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -41,6 +42,7 @@ public class CoolMod
 
         //------->>>>>>>>
         ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         //------->>>>>>>>
     }
 

@@ -1,7 +1,6 @@
 package com.VerMod.CoolMod.ItemGroups;
 
 import com.VerMod.CoolMod.Items.ItemRegistry;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;

@@ -1,0 +1,16 @@
+com/VerMod/CoolMod/Items/Vodka.java
+ com.VerMod.CoolMod.Items.Vodka
+com/VerMod/CoolMod/Items/CCCPSymbol.java
+ com.VerMod.CoolMod.Items.CCCPSymbol
+com/VerMod/CoolMod/Items/ItemRegistry.java
+ com.VerMod.CoolMod.Items.ItemRegistry
+com/VerMod/CoolMod/ItemGroups/ModGroup.java
+ com.VerMod.CoolMod.ItemGroups.ModGroup
+ com.VerMod.CoolMod.ItemGroups.ModGroup$1
+com/VerMod/CoolMod/Block/ThinOkaWood.java
+ com.VerMod.CoolMod.Block.ThinOkaWood
+com/VerMod/CoolMod/CoolMod.java
+ com.VerMod.CoolMod.CoolMod
+ com.VerMod.CoolMod.CoolMod$RegistryEvents
+com/VerMod/CoolMod/Block/BlockRegistry.java
+ com.VerMod.CoolMod.Block.BlockRegistry
